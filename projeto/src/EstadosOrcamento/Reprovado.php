@@ -11,7 +11,7 @@ class Reprovado extends EstadoOrcamento
         throw new \DomainException('Um orçamento reporvado não pode receber desconto');
     }
 
-    public function finalizar(Orcamento $orcamento)
+    public function finaliza(Orcamento $orcamento)
     {
         $orcamento->estadoAtual = new Finalizado();
     }

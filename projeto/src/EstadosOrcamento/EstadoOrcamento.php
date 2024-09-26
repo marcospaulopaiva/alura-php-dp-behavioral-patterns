@@ -21,7 +21,7 @@ abstract class EstadoOrcamento
         throw new \DomainException('Este orçamento não pode ser reprovado.');
     }
 
-    public function finalizar(Orcamento $orcamento)
+    public function finaliza(Orcamento $orcamento)
     {
         throw new \DomainException('Este orçamento não pode ser finalizado.');
     }
